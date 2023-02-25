@@ -117,7 +117,7 @@ handleFunction has to be in the form of:
 public delegate void PacketHandler(Packet packet);
 ```
 
-The handleFunction would like something like:
+The handleFunction would look something like:
 ```cs
 public static void handleFunction(Packet Packet) {
     int data = packet.ReadInt();
@@ -220,7 +220,8 @@ class MainClass
 ### Result:
 1. Start server program
 2. Start client program
-3. In server console: "I have connected to the server!" will be printed
-4. In client console: "10test" will be printed
+3. received client packet
+4. In server console: "I have connected to the server!" will be printed
+5. In client console: "10test" will be printed
 
 For each client program started after, step 3 and 4 will be repeated.
