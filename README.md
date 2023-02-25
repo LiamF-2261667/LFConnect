@@ -150,7 +150,7 @@ class MainClass
     // The handler function for the client packet of id 1 (client-side id)
     public static void ClientReceived(int fromClientId, Packet packet)
     {
-        Console.WriteLine("received client packet");
+        Console.WriteLine("Received client packet");
         
         // Read a string from the packet
         string msg = packet.ReadString();
@@ -220,7 +220,7 @@ class MainClass
 ### Result:
 1. Start server program
 2. Start client program
-3. In server console: "received client packet" will be printed
+3. In server console: "Received client packet" will be printed
 4. In server console: "I have connected to the server!" will be printed
 5. In client console: "10test" will be printed
 
