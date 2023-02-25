@@ -220,7 +220,7 @@ class MainClass
 ### Result:
 1. Start server program
 2. Start client program
-3. received client packet
+3. In server console: "received client packet" will be printed
 4. In server console: "I have connected to the server!" will be printed
 5. In client console: "10test" will be printed
 
